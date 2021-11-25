@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    background: #000 url("darkness/darkness.png");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.galeria{
+    width: 100%;
+}
+
+.galeria img{
+    vertical-align: top;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+    opacity: 0.5;
+}
+.galeria img:hover{
+    opacity:1;
+}
+.contenedor{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .menu a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+}
+
+header .logo img{
+    width: 150px;
+    height: 50px;
+}
+
+.main{
+    background: #fff;
+    padding: 20px;
+    width: 70%;
+}
+
+.main article .articulo {
+    margin-bottom: 20px;
+}
+
+.main article .articulo img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main article h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.main article p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+aside{
+    width: 30%;
+    background: rgb(133,253,253);
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+aside .barra{
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+    background: rgb(252, 252, 252);
+    border-radius: 10px;
+}
+
+
+footer{
+    margin-top: 20px;
+    background: rgb(255,255,255,0.2);
+    padding: 20px;
+    width: 100%;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .redes a{
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+footer .redes a:hover {
+    text-decoration: none;
+}
+
+h2{
+    color: rgba(0, 0, 0, .5);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h6{
+    color: rgba(0, 0, 0, .5);
+}
+h5{
+    color:#2d572c
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color:rgba(19, 34, 243, 0.514);
+}
+.galeria{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.galeria img{
+    vertical-align:auto;
+    width: 40%;
+    height: 50%; 
+    margin: 10px;
+    padding: 5px;
+
+}
